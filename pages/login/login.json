@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "安全登录",
+  "usingComponents": {
+    "auth-modal": "/components/auth-modal/index"
+  }
+}

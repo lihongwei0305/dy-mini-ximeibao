@@ -1,0 +1,1 @@
+{"version":3,"file":"getIncrementalID.js","sourceRoot":"","sources":["../../src/library/getIncrementalID.ts"],"names":[],"mappings":"AAAA,IAAI,EAAE,GAAG,CAAC,CAAC;AACX,MAAM,UAAU,gBAAgB;IAC/B,OAAO,CAAC,EAAE,GAAG,CAAC,EAAE,GAAG,CAAC,CAAC,GAAG,MAAM,CAAC,gBAAgB,CAAC,CAAC,QAAQ,EAAE,CAAC;AAC7D,CAAC"}

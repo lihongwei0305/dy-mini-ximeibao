@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/preview/preview",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "洗煤宝配煤助手",
+    "navigationBarTextStyle": "black"
+  },
+  "__usePrivacyCheck__": true
+}

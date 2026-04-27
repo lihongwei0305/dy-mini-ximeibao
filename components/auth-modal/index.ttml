@@ -1,0 +1,21 @@
+<view tt:if="{{visible}}" class="mask" bindtap="onMaskTap">
+  <view class="modal" catchtap="">
+    <view class="modal-header">
+      <image class="modal-logo" src="/icon.png" mode="aspectFit" />
+      <view class="modal-title">{{title}}</view>
+      <view class="modal-desc">{{desc}}</view>
+    </view>
+    <view class="modal-body">
+      <button
+        class="auth-btn"
+        bindtap="onAuthTap"
+        tt:if="{{!loading}}"
+      >{{btnText}}</button>
+      <view tt:if="{{loading}}" class="loading-text">正在登录，请稍候...</view>
+      <view tt:if="{{errorMsg}}" class="error-text">{{errorMsg}}</view>
+    </view>
+    <view class="modal-footer">
+      <text class="cancel-btn" bindtap="onCancel">暂不登录</text>
+    </view>
+  </view>
+</view>

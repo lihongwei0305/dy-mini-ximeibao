@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f8fa;
+}
+
+.loading {
+  font-size: 14px;
+  color: #666;
+}
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24rpx;
+  padding: 60rpx 40rpx;
+  background: #fff;
+  border-radius: 24rpx;
+  box-shadow: 0 4rpx 24rpx rgba(0,0,0,0.08);
+  width: 600rpx;
+}
+
+.logo {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 24rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: #07c160;
+  color: #fff;
+  font-size: 32rpx;
+  border-radius: 48rpx;
+  margin-top: 16rpx;
+}
+
+.error {
+  font-size: 24rpx;
+  color: #ee0a24;
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+<view class="container">
+  <web-view 
+  id="myWebView"
+    tt:if="{{webviewUrl  && !modalVisible}}" 
+    src="{{webviewUrl}}" 
+    bindload="webviewOnLoad"
+    bindmessage="webviewMessage">
+  </web-view>
+  
+</view>

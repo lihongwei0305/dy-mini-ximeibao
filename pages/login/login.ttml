@@ -1,0 +1,9 @@
+<view class="container">
+  <auth-modal
+    visible="{{modalVisible}}"
+    loading="{{loading}}"
+    error-msg="{{errorMsg}}"
+    bind:auth="onModalAuth"
+    bind:cancel="onModalCancel"
+  />
+</view>
